@@ -1,0 +1,176 @@
+{
+	"id": "f11165cc-f368-4cae-a507-d0830d09c6e7",
+	"name": "ITFBHW133",
+	"timestamp": "2025-04-04T10:14:02.918Z",
+	"collection_id": "41249472-0eedbbdf-763b-4d07-9e86-588dffc7a9ee",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-04-04T10:14:01.626Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "0031d661-68a4-4970-a0c8-1ac1d34c644e",
+			"name": "http://localhost:8080/students",
+			"url": "http://localhost:8080/students",
+			"time": 339,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				339
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e4c81d15-01f6-4caa-86eb-a16aca665f2e",
+			"name": "http://localhost:8080/students Copy",
+			"url": "http://localhost:8080/students",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				6
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "86037e07-292b-48cd-9229-bf42ebccca3b",
+			"name": "http://localhost:8080/students Copy 2",
+			"url": "http://localhost:8080/students",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				6
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1feaa7fc-d4a9-4cff-824e-5baeb7332eed",
+			"name": "http://localhost:8080/students/2",
+			"url": "http://localhost:8080/students/2",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				9
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ebfe7c33-62aa-4b71-8469-4454c3b98260",
+			"name": "http://localhost:8080/students",
+			"url": "http://localhost:8080/students/3",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				6
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "969a388d-aeed-41c0-bc6d-3aa598fb1978",
+			"name": "http://localhost:8080/students/1",
+			"url": "http://localhost:8080/students/1",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5a6f4d85-00c7-40e1-abf4-8085968304ef",
+			"name": "http://localhost:8080/students/1 Copy",
+			"url": "http://localhost:8080/students/99",
+			"time": 9,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				9
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 379,
+	"collection": {
+		"requests": [
+			{
+				"id": "0031d661-68a4-4970-a0c8-1ac1d34c644e",
+				"method": "POST"
+			},
+			{
+				"id": "e4c81d15-01f6-4caa-86eb-a16aca665f2e",
+				"method": "POST"
+			},
+			{
+				"id": "86037e07-292b-48cd-9229-bf42ebccca3b",
+				"method": "POST"
+			},
+			{
+				"id": "1feaa7fc-d4a9-4cff-824e-5baeb7332eed",
+				"method": "GET"
+			},
+			{
+				"id": "ebfe7c33-62aa-4b71-8469-4454c3b98260",
+				"method": "GET"
+			},
+			{
+				"id": "969a388d-aeed-41c0-bc6d-3aa598fb1978",
+				"method": "GET"
+			},
+			{
+				"id": "5a6f4d85-00c7-40e1-abf4-8085968304ef",
+				"method": "GET"
+			}
+		]
+	}
+}
